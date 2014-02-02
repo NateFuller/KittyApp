@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB7D6BCC189EC2E6003CA028 /* kitty00.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB7D6BC4189EC2E6003CA028 /* kitty00.jpg */; };
+		CB7D6BCD189EC2E6003CA028 /* kitty01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB7D6BC5189EC2E6003CA028 /* kitty01.jpg */; };
+		CB7D6BCE189EC2E6003CA028 /* kitty02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB7D6BC6189EC2E6003CA028 /* kitty02.jpg */; };
+		CB7D6BCF189EC2E6003CA028 /* kitty03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB7D6BC7189EC2E6003CA028 /* kitty03.jpg */; };
+		CB7D6BD0189EC2E6003CA028 /* kitty04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB7D6BC8189EC2E6003CA028 /* kitty04.jpg */; };
+		CB7D6BD1189EC2E6003CA028 /* kitty05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB7D6BC9189EC2E6003CA028 /* kitty05.jpg */; };
+		CB7D6BD2189EC2E6003CA028 /* kitty06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB7D6BCA189EC2E6003CA028 /* kitty06.jpg */; };
+		CB7D6BD3189EC2E6003CA028 /* kitty07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB7D6BCB189EC2E6003CA028 /* kitty07.jpg */; };
 		CBD0DAE0189DAE5600326D9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD0DADF189DAE5600326D9E /* Foundation.framework */; };
 		CBD0DAE2189DAE5600326D9E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD0DAE1189DAE5600326D9E /* CoreGraphics.framework */; };
 		CBD0DAE4189DAE5600326D9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD0DAE3189DAE5600326D9E /* UIKit.framework */; };
@@ -34,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB7D6BC4189EC2E6003CA028 /* kitty00.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitty00.jpg; sourceTree = "<group>"; };
+		CB7D6BC5189EC2E6003CA028 /* kitty01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitty01.jpg; sourceTree = "<group>"; };
+		CB7D6BC6189EC2E6003CA028 /* kitty02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitty02.jpg; sourceTree = "<group>"; };
+		CB7D6BC7189EC2E6003CA028 /* kitty03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitty03.jpg; sourceTree = "<group>"; };
+		CB7D6BC8189EC2E6003CA028 /* kitty04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitty04.jpg; sourceTree = "<group>"; };
+		CB7D6BC9189EC2E6003CA028 /* kitty05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitty05.jpg; sourceTree = "<group>"; };
+		CB7D6BCA189EC2E6003CA028 /* kitty06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitty06.jpg; sourceTree = "<group>"; };
+		CB7D6BCB189EC2E6003CA028 /* kitty07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitty07.jpg; sourceTree = "<group>"; };
 		CBD0DADC189DAE5600326D9E /* FirstProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD0DADF189DAE5600326D9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CBD0DAE1189DAE5600326D9E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +95,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB7D6BC3189EC199003CA028 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				CB7D6BC4189EC2E6003CA028 /* kitty00.jpg */,
+				CB7D6BC5189EC2E6003CA028 /* kitty01.jpg */,
+				CB7D6BC6189EC2E6003CA028 /* kitty02.jpg */,
+				CB7D6BC7189EC2E6003CA028 /* kitty03.jpg */,
+				CB7D6BC8189EC2E6003CA028 /* kitty04.jpg */,
+				CB7D6BC9189EC2E6003CA028 /* kitty05.jpg */,
+				CB7D6BCA189EC2E6003CA028 /* kitty06.jpg */,
+				CB7D6BCB189EC2E6003CA028 /* kitty07.jpg */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
 		CBD0DAD3189DAE5600326D9E = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +143,7 @@
 		CBD0DAE5189DAE5600326D9E /* FirstProject */ = {
 			isa = PBXGroup;
 			children = (
+				CB7D6BC3189EC199003CA028 /* img */,
 				CBD0DAEE189DAE5600326D9E /* AppDelegate.h */,
 				CBD0DAEF189DAE5600326D9E /* AppDelegate.m */,
 				CBD0DAF1189DAE5600326D9E /* Main.storyboard */,
@@ -229,8 +261,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBD0DAF8189DAE5600326D9E /* Images.xcassets in Resources */,
+				CB7D6BD2189EC2E6003CA028 /* kitty06.jpg in Resources */,
+				CB7D6BCD189EC2E6003CA028 /* kitty01.jpg in Resources */,
 				CBD0DAEA189DAE5600326D9E /* InfoPlist.strings in Resources */,
+				CB7D6BD0189EC2E6003CA028 /* kitty04.jpg in Resources */,
 				CBD0DAF3189DAE5600326D9E /* Main.storyboard in Resources */,
+				CB7D6BCC189EC2E6003CA028 /* kitty00.jpg in Resources */,
+				CB7D6BCF189EC2E6003CA028 /* kitty03.jpg in Resources */,
+				CB7D6BD3189EC2E6003CA028 /* kitty07.jpg in Resources */,
+				CB7D6BCE189EC2E6003CA028 /* kitty02.jpg in Resources */,
+				CB7D6BD1189EC2E6003CA028 /* kitty05.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +500,7 @@
 				CBD0DB10189DAE5600326D9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBD0DB11189DAE5600326D9E /* Build configuration list for PBXNativeTarget "FirstProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +509,7 @@
 				CBD0DB13189DAE5600326D9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
